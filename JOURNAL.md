@@ -30,3 +30,10 @@ I finished my CAD I think. I addee the hinges, I added the holes/guides for the 
 ![CAD Finger Whole Backside](https://hc-cdn.hel1.your-objectstorage.com/s/v3/59463f1d8ecd6e6754e5053a6f7db0f88449871a_cad_j28_pic2.png)
 
 **Total time spent: 3.5h**
+
+# June 29th:
+I just added the servo motor holder and the spool I will need to the CAD. For my final CAD file, I will take the stuff apart and put them separate so that the 3D printer can actually properly 3D print stuff.
+
+![CAD Finger Whole](https://hc-cdn.hel1.your-objectstorage.com/s/v3/4f2ae77bd89a0d3aa96313b83e6d795bb50f3154_cad_j29.png)
+
+**Total time spent: 1.5h**
