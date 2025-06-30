@@ -37,3 +37,10 @@ I just added the servo motor holder and the spool I will need to the CAD. For my
 ![CAD Finger Whole](https://hc-cdn.hel1.your-objectstorage.com/s/v3/4f2ae77bd89a0d3aa96313b83e6d795bb50f3154_cad_j29.png)
 
 **Total time spent: 1.5h**
+
+# June 30th:
+I designed the schematic for my robot finger/hand. I decided that all I will need is an ESP32-CAM module and a servo motor. So, I added those (it took some time to also add the symbol libraries and footprints too). I also realized I needed to add a capacitor as well. After runnign ERC, I received a few errors, so I fixed the unconnected pins with a No Connect end, and then also added the PWR_FLAGs. I was originally going to design a PCB too, but I realized that since it's just one finger, and also there may be some errors and refinning and testing and stuff, a PCB would take too long to make each time.
+
+![Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/802837c75aa30302b7183fd66e1f129e9aac8e3f_pcb_j30.png)
+
+**Total time spent: 1.5h**
