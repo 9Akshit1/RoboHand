@@ -44,3 +44,11 @@ I designed the schematic for my robot finger/hand. I decided that all I will nee
 ![Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/802837c75aa30302b7183fd66e1f129e9aac8e3f_pcb_j30.png)
 
 **Total time spent: 1.5h**
+
+# July 1st:
+I decided that although starting with one finger is probably good for testing and refining, I should still design the whole hand. So, for the CAD, I duplicated the figners and shrotened their lengths. Then I made the palm body and the base prism body to hold up the whole thing. Similarily, I changed the circuit schematic to incldue all 5 servo motors. I realized that I will also likely need to have a stronger 1000 µF capcitor probably. Next time, I will start working on the firmware coding, which will be complex since I need to code using the camera for hand + finger tracking.
+
+![CAD Full Hand](https://hc-cdn.hel1.your-objectstorage.com/s/v3/16eba3cc361813fa847ae98a80a3d00cb18c9fcf_cad_jy1.png)
+![Schematic Full Hand](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ea7a1dc1fddf84671f8d26a62c6c04ebb099ab65_schematic_jy1.png)
+
+**Total time spent: 2h**
