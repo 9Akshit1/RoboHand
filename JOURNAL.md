@@ -49,6 +49,23 @@ I designed the schematic for my robot finger/hand. I decided that all I will nee
 I decided that although starting with one finger is probably good for testing and refining, I should still design the whole hand. So, for the CAD, I duplicated the figners and shrotened their lengths. Then I made the palm body and the base prism body to hold up the whole thing. Similarily, I changed the circuit schematic to incldue all 5 servo motors. I realized that I will also likely need to have a stronger 1000 µF capcitor probably. Next time, I will start working on the firmware coding, which will be complex since I need to code using the camera for hand + finger tracking.
 
 ![CAD Full Hand](https://hc-cdn.hel1.your-objectstorage.com/s/v3/16eba3cc361813fa847ae98a80a3d00cb18c9fcf_cad_jy1.png)
+
 ![Schematic Full Hand](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ea7a1dc1fddf84671f8d26a62c6c04ebb099ab65_schematic_jy1.png)
 
 **Total time spent: 2h**
+
+# July 2nd:
+While I was coding, I realized I wanted 3 buttons to switch between different modes for the arm (hand tracking, computer command based, or preset gestures). So, I added the holes for the button in the CAD, then added the 3 buttons to my circuit schematic. After that, I designed my PCB. I'm likely not going to use a PCB when I build it just becauseits faster for testing if I don't, however, since the PCB looks nice and lcean, I just designed it too. I also worked on my BOM and README file.
+Finally, I worked on coding my software for this. I had to design the OpenCV code and make it compatible with teh ESP32-CAM. I had to also code the commands of the servo motor control which was much easier than I thought it would be since it  is just setting angles, however, the calculations were very difficult to figure out and I had to use online sources. I had to also code internal pull-up resistors for the button because I was suggested by a friend to do that just to ensure stability. I learned quite a lot about the circuit schematics today as well, because I realized I hasd messed up my connections for everything, since I was just connecting based on the pin name, and not the GPIO number. I'm not done yet, but I am almost done.
+
+![CAD Full Hand Frontside](https://hc-cdn.hel1.your-objectstorage.com/s/v3/0eb5953f91e9ba583a2f5a64e0ce6e3ec2b6b9e5_cad_jy2_pic1.png)
+
+![CAD Full Hand Backside](https://hc-cdn.hel1.your-objectstorage.com/s/v3/fe0734e5c5b1cd3cd8ea67d6c01092f0eef8efdd_cad_jy2_pic2.png)
+
+![CAD Full Hand Underside](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b559a07c66fa4c035cc92b1351936754b3420eb1_cad_jy2_pic3.png)
+
+![Schematic Full Hand with Buttons](https://hc-cdn.hel1.your-objectstorage.com/s/v3/319bd1ee434b18614ffb52b6fccd42de33fba531_schematic_jy2.png)
+
+![PCB Full Hand with Buttons](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ea7a1dc1fddf84671f8d26a62c6c04ebb099ab65_schematic_jy1.png)
+
+**Total time spent: 3h**
