@@ -44,4 +44,5 @@ The firmware software is in the firmware folder, and are called esp32_ver.py (wh
 | **Female Power Adapter DC Barrel to Screw Plug Jack Connector** | 1 | $7.36 | Mr.Geeker 10 Pcs Female Power Adapter DC Barrel to Screw Plug Jack Connector 2.1x5.5mm | Used to connect the power adapter to the ESP32-CAM board but manage the power and GND. The product link was the cheapest deal I could find | https://www.amazon.ca/dp/B00NXGVWIM |
 
 **Total Cost (without 3D CAD):** $67.46 USD ≈ $91.74 CAD
+
 **Total Cost (with 3D CAD using the average of the range which is $12.5):** $79.96 USD ≈ $108.75 CAD
