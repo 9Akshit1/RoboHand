@@ -4,7 +4,7 @@ author: "Akshit Erukulla"
 description: "A robotic finger has 2–3 hinged segments moved by servos or tendons, controlled by a microcontroller and powered by a battery."
 created_at: "2025-06-26"
 ---
-**Total Time spent: 19h**
+**Total Time spent: 22h**
 
 # June 26th:
 I worked on my CAD. I had to really think about how to design the finger. I decided to start off with some cylidners and then processeded to hollow them out, cut them, connect them, then add the plates with holes for a string (kevlar line) to go through all the fingers, so it can pull and curl the fingers.
@@ -72,7 +72,7 @@ Finally, I worked on coding my software for this. I had to design the OpenCV cod
 **Time spent: 3h**
 
 # July 3rd:
-Whiel I was working on my BOM, I realzied that I will need a Female Power Adapter DC Barrel to Screw Plug Jack Connector, so I added that and also made a hole for it in my CAD. I also continued working on my coding. I actually used mediapipe such that the finger tracking would work this time compared to yesterday. I used a tutorial for this, since I am a beginner with mediapipe. I also had to follow a tutorial on how to use pyserial which took some time. The hardest part was converting the code to the esp32_version because I couldn't even test that python file. I also preprogrammed the different gestures which was actually pretty easy after I got the camera tracking thing working. I just copied the angles from there. I applied some error handling so that since I do not have the ESP32-CAM with me for testing right now, it would jsut print what signals or servo angles it would send.
+While I was working on my BOM, I realzied that I will need a Female Power Adapter DC Barrel to Screw Plug Jack Connector, so I added that and also made a hole for it in my CAD. I also continued working on my coding. I actually used mediapipe such that the finger tracking would work this time compared to yesterday. I used a tutorial for this, since I am a beginner with mediapipe. I also had to follow a tutorial on how to use pyserial which took some time. The hardest part was converting the code to the esp32_version because I couldn't even test that python file. I also preprogrammed the different gestures which was actually pretty easy after I got the camera tracking thing working. I just copied the angles from there. I applied some error handling so that since I do not have the ESP32-CAM with me for testing right now, it would jsut print what signals or servo angles it would send.
 
 ![CAD Full Hand Backside](https://hc-cdn.hel1.your-objectstorage.com/s/v3/6cf5f00cecec6dab7e3f775ddf35739472e9989b_cad_jy3.png)
 
@@ -81,3 +81,20 @@ Whiel I was working on my BOM, I realzied that I will need a Female Power Adapte
 ![Camera Tracking UI Spider Man Pose](https://hc-cdn.hel1.your-objectstorage.com/s/v3/088d54ca0e6f30fa80a4ac7c3bd3eefce8f310bd_camera_tracking_spiderman.png)
 
 **Time spent: 2.5h**
+
+# July 4th:
+Before I submitted my project, I remembered that my original CAD file would get rejected because it was the fully built hand, however, in an actual 3D printer, everything would have to be separate and proper so there are no floating parts. So, it took me a long time making sure each part was separated into valid 3D printable parts. I had to take out all the hinges, the axles, the sides of the fingers, split part the body boxes, and more. I made sure that everything was not floating and would properly print. Also, note that for the body separated image, none of the parts are touching but they are very close to each other. That is just temporary. When I actually 3D print everything, I will separate those parts into different CAD files. This was a very time consuming and precise process.
+
+![Final CAD Thumb Finger Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d47e26595ff6a854219f9481595280e4a03abd23_cad_thumb.png)
+
+![Final CAD Index Finger Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/5cedf0068f997ff48cd3f0cf27c2add3f5ba289a_cad_index.png)
+
+![Final CAD Middle Finger Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/47549fec8bafb1626f2fa633d8798c469f0eecc3_cad_middle.png)
+
+![Final CAD Ring Finger Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/1159341951d918dbfab7d8ad09b1596d0c0ad3dc_cad_ring.png)
+
+![Final CAD Pinky Finger Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3ad1caff27a0c6759d0816a451dc2e8561a90a3a_cad_pinky.png)
+
+![Final CAD Body Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7041112042d07831d98d7bf883e41fcbb0f77385_cad_body.png)
+
+**Time spent: 3h**
