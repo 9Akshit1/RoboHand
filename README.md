@@ -6,7 +6,8 @@ INSPIRATION: I've always been inspired by how human hands move and wanted to rec
 # Final CAD
 The separate finger files and body files are in ther CAD folder. The full built hand CAD File is called RoboHand.stl in the CAD folder. 
 
-The below five images are each finger's separated pieces. They are all essentially copies of the Middle_Finger.stl file, except they have been scaled to be shorter.
+The below five images are each finger's separated pieces. They are all essentially copies of the Middle_Finger.stl file, except they have been scaled to be shorter. The images below might be slightly different from the current CAD files because I may have noticed a few things to fix, but it's only slight changes.
+Also, please note that I can always just add supports before I 3D print, so we do not need to worry about that!
 ![Final CAD Thumb Finger Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/d47e26595ff6a854219f9481595280e4a03abd23_cad_thumb.png)
 
 ![Final CAD Middle Finger Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/47549fec8bafb1626f2fa633d8798c469f0eecc3_cad_middle.png)
