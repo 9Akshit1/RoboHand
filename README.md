@@ -3,6 +3,8 @@ DESCRIPTION: RoboHand is just like how it sounds. It is a robotic hand with five
 
 INSPIRATION: I've always been inspired by how human hands move and wanted to recreate that motion using motors and tendons. Additionally, at the same time, I was learning how to simulate robots in physics based simulations called MuJoCo, which is why I wanted to also actaully build a hand and test my inverse kinematics coding knowledge at it.
 
+Link to RoboArm: https://github.com/9Akshit1/RoboArm
+
 # Final CAD
 The separate finger files and body files are in ther CAD folder. The full built hand CAD File is called RoboHand.stl in the CAD folder. 
 
