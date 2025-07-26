@@ -35,7 +35,7 @@ Schematic is called robohand.kicad_sch in the schematic_pcb/robohand folder.
 
 ![Final Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/319bd1ee434b18614ffb52b6fccd42de33fba531_schematic_jy2.png)
 
-# Final PCB
+# Final PCB (I'm not actually gonna use a PCB, I just made this for practice)
 Schematic is called robohand.kicad_pcb in the schematic_pcb/robohand folder.
 
 ![Final PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/19efd4e19a08c81d7d72a219a6a06c1f867fb6a9_pcb_jy2.png)
