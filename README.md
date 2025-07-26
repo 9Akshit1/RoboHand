@@ -38,7 +38,7 @@ Schematic is called robohand.kicad_sch in the schematic_pcb/robohand folder.
 # Final PCB (I'm not actually gonna use a PCB, I just made this for practice)
 Schematic is called robohand.kicad_pcb in the schematic_pcb/robohand folder.
 
-![Final PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/19efd4e19a08c81d7d72a219a6a06c1f867fb6a9_pcb_jy2.png)
+![Final PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e38e3dc7e2b150734c08eded3e18af604725a4f3_pcb_jy2.png)
 
 # Final Firmware Stuff
 The firmware software is in the firmware folder, and are called esp32_ver.py (which will be used on the ESP32-CAM board), and pc_ver.py (which can be tested on a PC).
