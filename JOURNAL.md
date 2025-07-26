@@ -67,7 +67,7 @@ Finally, I worked on coding my software for this. I had to design the OpenCV cod
 
 ![Schematic Full Hand with Buttons](https://hc-cdn.hel1.your-objectstorage.com/s/v3/319bd1ee434b18614ffb52b6fccd42de33fba531_schematic_jy2.png)
 
-![PCB Full Hand with Buttons](https://hc-cdn.hel1.your-objectstorage.com/s/v3/ea7a1dc1fddf84671f8d26a62c6c04ebb099ab65_schematic_jy1.png)
+![PCB Full Hand with Buttons](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e38e3dc7e2b150734c08eded3e18af604725a4f3_pcb_jy2.png)
 
 **Time spent: 3h**
 

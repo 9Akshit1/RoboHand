@@ -321,24 +321,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "GND@1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P$1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at -17.78 7.62 0)
 					(length 5.08)
 					(name "GPIO1"
@@ -385,24 +367,6 @@
 						)
 					)
 					(number "P$4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "GND@2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "P$5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -572,7 +536,45 @@
 						)
 					)
 				)
-				(pin bidirectional line
+			)
+			(symbol "ESP32-CAM_1_0"
+				(pin power_in line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "GND@1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "GND@2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "P$5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at 17.78 -5.08 180)
 					(length 5.08)
 					(name "GND@3"
@@ -590,7 +592,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "5V"
@@ -2690,197 +2692,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ESP32-CAM:ESP32-CAM")
-		(at 115.57 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67dd33b1-8a2c-4014-b9f9-cfa6a9220c4f")
-		(property "Reference" "U1"
-			(at 115.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ESP32-CAM"
-			(at 115.57 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ESP32-CAM:ESP32-CAM"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "AI-Thinker"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "ESP32 ESP32 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=snap"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ESP32-CAM"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "Not in stock"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=eda"
-			(at 115.57 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "P$5"
-			(uuid "c24065d0-551f-4fc8-95c2-cfd43075e11f")
-		)
-		(pin "P$13"
-			(uuid "91767bd4-ded2-443e-b097-c9b04af67fea")
-		)
-		(pin "P$10"
-			(uuid "45466928-5bc3-41c2-9cfa-6335b1b0b285")
-		)
-		(pin "P$15"
-			(uuid "98827ebb-7592-486e-86ea-2e33c4121ad7")
-		)
-		(pin "P$4"
-			(uuid "c61aa002-25c5-4c90-b997-b1097e83a877")
-		)
-		(pin "P$14"
-			(uuid "1bf1879d-bcee-404c-bd02-a70d1e47b81a")
-		)
-		(pin "P$12"
-			(uuid "f396284a-cdfa-408c-a280-741f261efaf9")
-		)
-		(pin "P$11"
-			(uuid "3b6a8624-3a8c-4100-b74f-63935871c156")
-		)
-		(pin "P$16"
-			(uuid "4e4b9998-d520-4fa1-97f6-9b7ad136f936")
-		)
-		(pin "P$3"
-			(uuid "ac580a78-70f4-42d2-b670-e926494df9c7")
-		)
-		(pin "P$2"
-			(uuid "f5b9001b-0a46-491f-809e-5dff7f702d15")
-		)
-		(pin "P$7"
-			(uuid "f9386076-ee17-4707-86f9-25efb4b36f0a")
-		)
-		(pin "P$1"
-			(uuid "6db112db-5046-4e7d-aad9-3a93e0f7fe3c")
-		)
-		(pin "P$6"
-			(uuid "c60cf3b9-fb6c-46bb-8274-be4f239430da")
-		)
-		(pin "P$8"
-			(uuid "9b9676cb-44af-4941-8abb-c4f1750db845")
-		)
-		(pin "P$9"
-			(uuid "f28fbdbc-c767-465a-a2a3-e1227ff09273")
-		)
-		(instances
-			(project ""
-				(path "/5440b193-4b43-426a-80ad-f3dc6c3cd1c5"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 149.86 74.93 0)
 		(unit 1)
@@ -3294,6 +3105,197 @@
 			(project "robohand"
 				(path "/5440b193-4b43-426a-80ad-f3dc6c3cd1c5"
 					(reference "M3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ESP32-CAM:ESP32-CAM")
+		(at 115.57 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e50f6480-9517-4ba3-b453-5a2f8f1824dd")
+		(property "Reference" "U1"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-CAM"
+			(at 115.57 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ESP32-CAM:ESP32-CAM"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "AI-Thinker"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "ESP32 ESP32 Transceiver; 802.11 a/b/g/n (Wi-Fi, WiFi, WLAN), Bluetooth® Smart 4.x Low Energy (BLE) Evaluation Board"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=snap"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ESP32-CAM"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-CAM/AI-Thinker/view-part/?ref=eda"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "P$2"
+			(uuid "eea17559-1ce1-40e0-8f27-a1603f19381d")
+		)
+		(pin "P$7"
+			(uuid "ef1a2401-0d57-4dbc-a50a-609a47338c03")
+		)
+		(pin "P$5"
+			(uuid "56388f5c-d7fb-4606-8288-3e11ecdc1972")
+		)
+		(pin "P$4"
+			(uuid "322922d6-096b-4cbf-8226-e13aa59d9b0a")
+		)
+		(pin "P$3"
+			(uuid "9980f193-a9c5-41eb-8200-5ffd6c7e2242")
+		)
+		(pin "P$8"
+			(uuid "c505ad39-3ca6-41f5-8e5d-85e0a44f5b07")
+		)
+		(pin "P$16"
+			(uuid "f233d0ae-0bf5-4ceb-ae76-95b196727dc5")
+		)
+		(pin "P$13"
+			(uuid "b7b22dc9-6a6a-47f6-8cb1-ee0ac5f771b2")
+		)
+		(pin "P$15"
+			(uuid "79e8e7b9-4bf4-4313-8e6c-f1d1a761bd3e")
+		)
+		(pin "P$12"
+			(uuid "7fb1d677-5e30-47a6-8250-56ce21589392")
+		)
+		(pin "P$6"
+			(uuid "9073d5c3-0955-49ac-9fef-3fb6f3fe435a")
+		)
+		(pin "P$14"
+			(uuid "5292ff89-47b8-49ac-824b-13dff93420b3")
+		)
+		(pin "P$11"
+			(uuid "eb3846ea-6901-449d-9832-2e9da55a0d41")
+		)
+		(pin "P$1"
+			(uuid "7a7f73fb-e9f2-4565-9203-448e084ea471")
+		)
+		(pin "P$10"
+			(uuid "a960e58c-3e83-4511-ba1c-6122842ea4ad")
+		)
+		(pin "P$9"
+			(uuid "4112130e-f6f8-437a-9295-3e8911545742")
+		)
+		(instances
+			(project ""
+				(path "/5440b193-4b43-426a-80ad-f3dc6c3cd1c5"
+					(reference "U1")
 					(unit 1)
 				)
 			)
