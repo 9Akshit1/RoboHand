@@ -72,14 +72,14 @@ The firmware software is in the firmware folder, and are called esp32_ver.py (wh
 | **Male/Female Jumper Wires**     | ~15      | N/A| Dupont cables (already owned)                                 | For wiring servos, buttons, ESP32   | N/A |
 | **3 Pin JST-XH Connector (2.54 mm)** | 5 | $9.30 | JST XH 3Pin Wires Cables | Need this to coneect the servo motors and the V+s and the GNDs.  | https://www.aliexpress.com/item/32919120900.html?spm=a2g0o.productlist.main.12.754e57febmS7Iz&algo_pvid=e354ae96-a6b5-458a-a438-9098048812b0&algo_exp_id=e354ae96-a6b5-458a-a438-9098048812b0-11&pdp_ext_f=%7B%22order%22%3A%22111%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%212.55%211.86%21%21%211.80%211.31%21%402101c5bf17540809546021746ed5ba%2165978047808%21sea%21CA%216438900822%21ABX&curPageLogUid=RdIgzBeqUtll&utparam-url=scene%3Asearch%7Cquery_from%3A |
 | **3‑Pin Header (2.54 mm)** | 1 | $3.10 | Single Row Female 2.54 Breakable Pin Header Strip | Need this to connect the servo motors and the V+s and the GNDs. | https://www.aliexpress.com/item/32993182990.html?spm=a2g0o.detail.pcDetailTopMoreOtherSeller.10.3630PpioPpioUB&gps-id=pcDetailTopMoreOtherSeller&scm=1007.40196.439370.0&scm_id=1007.40196.439370.0&scm-url=1007.40196.439370.0&pvid=2ab62c2f-b9a5-4dbe-bb2f-6d4873424dc8&_t=gps-id:pcDetailTopMoreOtherSeller,scm-url:1007.40196.439370.0,pvid:2ab62c2f-b9a5-4dbe-bb2f-6d4873424dc8,tpp_buckets:668%232846%238111%231996&pdp_ext_f=%7B%22order%22%3A%22476%22%2C%22eval%22%3A%221%22%2C%22sceneId%22%3A%2230050%22%7D&pdp_npi=4%40dis%21CAD%213.32%211.63%21%21%212.34%211.15%21%402103244617540811594934063e4178%2166952136433%21rec%21CA%216438900822%21ABXZ&utparam-url=scene%3ApcDetailTopMoreOtherSeller%7Cquery_from%3A |
-| **Female Power Adapter DC Barrel to Screw Plug Jack Connector** | 1 | $7.36 | Mr.Geeker 10 Pcs Female Power Adapter DC Barrel to Screw Plug Jack Connector 2.1x5.5mm | Used to connect the power adapter to the ESP32-CAM board but manage the power and GND. The product link was the cheapest deal I could find | https://www.amazon.ca/dp/B00NXGVWIM |
+| **Female Power Adapter DC Barrel to Screw Plug Jack Connector** | 1 | $2.52 | Mr.Geeker 10 Pcs Female Power Adapter DC Barrel to Screw Plug Jack Connector 2.1x5.5mm | Used to connect the power adapter to the ESP32-CAM board but manage the power and GND. The product link was the cheapest deal I could find | https://www.aliexpress.com/item/1005008987005268.html?spm=a2g0o.productlist.main.2.df155998nLKCjG&aem_p4p_detail=202508011402373093864537015840004227846&algo_pvid=96a38800-3a1a-4c03-b19f-4abbd7d5611a&algo_exp_id=96a38800-3a1a-4c03-b19f-4abbd7d5611a-1&pdp_ext_f=%7B%22order%22%3A%2229%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%213.43%211.63%21%21%2117.48%218.31%21%402101e9ec17540821576896587efa3e%2112000047469895587%21sea%21CA%216438900822%21ABX&curPageLogUid=bBj4EJuoberQ&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202508011402373093864537015840004227846_1 |
 
-**BOM Cost:** $51.39 USD ≈ $70.01 CAD            (I made it MUCH MUCH cheaper than what's shown on the form submission!)
+**BOM Cost:** $53.91 USD ≈ $73.44 CAD            (I made it MUCH MUCH cheaper than what's shown on the form submission!)
 
-**Shipping:** $5.48 USD ≈ $7.46 CAD 
+**Shipping:** $5.48 USD ≈ $7.46 CAD     (from the JST XH 3Pin product) --- Everything else is FREE SHIPPING becuase this will be my frist ever order on Aliexpress
 
-**Subtotal:** $56.87 USD ≈ $77.47 CAD 
+**Subtotal:** $59.39 USD ≈ $80.91 CAD 
 
-**Taxes (in  Ontario, Canada, it's 13%):** $7.39 USD ≈ $10.07 CAD
+**Taxes (in  Ontario, Canada, it's 13%):** $7.72 USD ≈ $10.52 CAD
 
-**Total Cost:** $64.26 USD ≈ $87.54 CAD
+**Total Cost:** 67.11 USD ≈ $91.43 CAD
