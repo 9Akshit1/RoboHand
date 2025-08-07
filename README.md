@@ -43,7 +43,7 @@ This is what the full build hand will look like. I will likely hot glue every pi
 ![Final CAD Underside](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b559a07c66fa4c035cc92b1351936754b3420eb1_cad_jy2_pic3.png)
 
 # Final Circuit Schematic
-Schematic is called robohand.kicad_sch in the schematic_pcb/robohand folder.
+Schematic is called robohand.kicad_sch in the schematic_pcb/robohand folder. While this shows 4 EMG sensors (the ESP32-CAM doesnt have enough pins), I actually need 9 EMG sensors to fluidly control a human hand and train it to be extremely good at autonomous imitation. Since the ESP32-CAM doesn't have enough pins, I decided to use the board setup I will be getting from my RoboArm project. That project has enough pins for me to connect all of my EMG sensors. 
 
 ![Final Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/8f2fa4fdb6b0541a5f8ab713b6f9a76516ecd418_schematic_au6.png)
 
@@ -67,7 +67,7 @@ The firmware software is in the firmware folder, and are called esp32_ver.py (wh
 | **EMG Sensors** | Muscle BioAmp Candy | 9 | $89.91 | https://www.tindie.com/products/upsidedownlabs/muscle-bioamp-candy-emg-sensor/ | Muscle activity sensors. These are one of the best quality sensors suitable for research projects such as this and are also the cheapest deal I found everywhere! I need 9 because I'm doing a full hand, where each finger has around 2 DOF, except the thumb which has 3 and the pinky which I decided to let it have only 1 EMG since its muscles are highly connected with the other fingers. |
 | **ADC Modules** | ADS1115 | 1 | $1.97 | https://www.aliexpress.com/item/1005007628692389.html?spm=a2g0o.productlist.main.2.6c913e84NYJmIs&aem_p4p_detail=202507311619095829272559576480003213401&algo_pvid=1275a360-73ba-4ddf-a858-0478d2ddf380&algo_exp_id=1275a360-73ba-4ddf-a858-0478d2ddf380-1&pdp_ext_f=%7B%22order%22%3A%22612%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%2111.18%216.23%21%21%2156.85%2131.67%21%40210313e917540039492598181eaff1%2112000041563143884%21sea%21CA%216438900822%21ABX&curPageLogUid=H8gnUD0dSVdM&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507311619095829272559576480003213401_1 | 16-bit ADC |
 
-**BOM Cost:** $129.72 USD ≈ $176.73 CAD            (I made it MUCH MUCH cheaper than what's shown on the form submission!)
+**BOM Cost:** $129.72 USD ≈ $176.73 CAD            
 
 **Shipping:** $14.91 USD ≈ $20.31 CAD     --- The cost comes from the EMG sensors. Everything else is FREE SHIPPING becuase this will be my frist ever order on Aliexpress
 
