@@ -98,3 +98,10 @@ Before I submitted my project, I remembered that my original CAD file would get 
 ![Final CAD Body Separated](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7041112042d07831d98d7bf883e41fcbb0f77385_cad_body.png)
 
 **Time spent: 3h**
+
+# August 6th:
+I changed the schematic because I realized I could fit in some EMG sensors, since I wanted to shift this project to a more mind-controlled robotic hand to make it more unique. So, I changed the circuit schematic and the BOM. It took some time figuring out how to fix the schematic though. I'll need to finish the CAD tomorrow, and also look for potentially cheaper EMG sensors. I did find a cheaper EMG sensor, but they only ship to India, so I emailed them and am waiting on a response.
+
+![Final Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/8f2fa4fdb6b0541a5f8ab713b6f9a76516ecd418_schematic_au6.png)
+
+**Time spent: 1h**

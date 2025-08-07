@@ -45,12 +45,7 @@ This is what the full build hand will look like. I will likely hot glue every pi
 # Final Circuit Schematic
 Schematic is called robohand.kicad_sch in the schematic_pcb/robohand folder.
 
-![Final Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/319bd1ee434b18614ffb52b6fccd42de33fba531_schematic_jy2.png)
-
-# Final PCB (I'm not actually gonna use a PCB, I just made this for practice)
-Schematic is called robohand.kicad_pcb in the schematic_pcb/robohand folder.
-
-![Final PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/e38e3dc7e2b150734c08eded3e18af604725a4f3_pcb_jy2.png)
+![Final Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/8f2fa4fdb6b0541a5f8ab713b6f9a76516ecd418_schematic_au6.png)
 
 # Final Firmware Stuff
 The firmware software is in the firmware folder, and are called esp32_ver.py (which will be used on the ESP32-CAM board), and pc_ver.py (which can be tested on a PC).
@@ -70,11 +65,12 @@ The firmware software is in the firmware folder, and are called esp32_ver.py (wh
 | **Male/Female Jumper Wires**     | ~15      | N/A| Dupont cables (already owned)                                 | For wiring servos, buttons, ESP32   | N/A |
 | **Female Power Adapter DC Barrel to Screw Plug Jack Connector** | 1 | $2.52 | Mr.Geeker 10 Pcs Female Power Adapter DC Barrel to Screw Plug Jack Connector 2.1x5.5mm | Used to connect the power adapter to the ESP32-CAM board but manage the power and GND. The product link was the cheapest deal I could find | https://www.aliexpress.com/item/1005008987005268.html?spm=a2g0o.productlist.main.2.df155998nLKCjG&aem_p4p_detail=202508011402373093864537015840004227846&algo_pvid=96a38800-3a1a-4c03-b19f-4abbd7d5611a&algo_exp_id=96a38800-3a1a-4c03-b19f-4abbd7d5611a-1&pdp_ext_f=%7B%22order%22%3A%2229%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%213.43%211.63%21%21%2117.48%218.31%21%402101e9ec17540821576896587efa3e%2112000047469895587%21sea%21CA%216438900822%21ABX&curPageLogUid=bBj4EJuoberQ&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202508011402373093864537015840004227846_1 |
 | **EMG Sensors** | SEN-13723 RoHS MyoWare | 3 | $90.00 | https://www.alibaba.com/product-detail/SpotMyoWare-Muscle-Sensor-SEN-13723-Muscles_1601406726720.html?spm=a2700.galleryofferlist.normal_offer.d_title.52e313a0BHVrsO | Muscle activity sensors. These are one of the best quality sensors suitable for research projects such as this and are also the cheapest deal I found everywhere! I need 3 because I'm doing a full hand, meaning there are multiple muscles to look at and analyze and align and everything. |
+| **ADC Modules** | ADS1115 | 1 | $1.97 | [Link](https://www.aliexpress.com/item/1005007628692389.html?spm=a2g0o.productlist.main.2.6c913e84NYJmIs&aem_p4p_detail=202507311619095829272559576480003213401&algo_pvid=1275a360-73ba-4ddf-a858-0478d2ddf380&algo_exp_id=1275a360-73ba-4ddf-a858-0478d2ddf380-1&pdp_ext_f=%7B%22order%22%3A%22612%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21CAD%2111.18%216.23%21%21%2156.85%2131.67%21%40210313e917540039492598181eaff1%2112000041563143884%21sea%21CA%216438900822%21ABX&curPageLogUid=H8gnUD0dSVdM&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202507311619095829272559576480003213401_1) | 16-bit ADC |
 
-**BOM Cost:** $127.84 USD ≈ $174.17 CAD            (I made it MUCH MUCH cheaper than what's shown on the form submission!)
+**BOM Cost:** $129.81 USD ≈ $176.85 CAD            (I made it MUCH MUCH cheaper than what's shown on the form submission!)
 
 **Shipping:** $0.00 USD ≈ $0.00 CAD     --- Everything is FREE SHIPPING becuase this will be my frist ever order on Aliexpress
 
-**Taxes (in  Ontario, Canada, it's 13%):** $16.62 USD ≈ $22.64 CAD
+**Taxes (in  Ontario, Canada, it's 13%):** $16.88 USD ≈ $22.99 CAD
 
-**Total Cost:** $144.46 USD ≈ $196.81 CAD
+**Total Cost:** $146.69 USD ≈ $199.84 CAD
