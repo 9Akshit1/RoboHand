@@ -100,7 +100,7 @@ Before I submitted my project, I remembered that my original CAD file would get 
 **Time spent: 3h**
 
 # August 6th:
-I changed the schematic because I realized I could fit in some EMG sensors, since I wanted to shift this project to a more mind-controlled robotic hand to make it more unique. So, I changed the circuit schematic and the BOM. It took some time figuring out how to fix the schematic though. I'll need to finish the CAD tomorrow, and also look for potentially cheaper EMG sensors. I did find a cheaper EMG sensor, but they only ship to India, so I emailed them and am waiting on a response.
+I changed the schematic because I realized I could fit in some EMG sensors, since I wanted to shift this project to a more mind-controlled robotic hand to make it more unique. So, I changed the circuit schematic and the BOM. It took some time figuring out how to fix the schematic though. I think the CAD is fine since I can put the motors within the hand and the arm. I also was able to find cheaper EMG sensors and so I updated the BOM. I did find a cheaper EMG sensor, but they only ship to India, so I emailed them and am waiting on a response.
 
 ![Final Schematic](https://hc-cdn.hel1.your-objectstorage.com/s/v3/8f2fa4fdb6b0541a5f8ab713b6f9a76516ecd418_schematic_au6.png)
 
