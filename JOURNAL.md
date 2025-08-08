@@ -4,7 +4,7 @@ author: "Akshit Erukulla"
 description: "A robotic finger has 2–3 hinged segments moved by servos or tendons, controlled by a microcontroller and powered by a battery."
 created_at: "2025-06-26"
 ---
-**Total Time spent: 22h**
+**Total Time spent: 23h**
 
 # June 26th:
 I worked on my CAD. I had to really think about how to design the finger. I decided to start off with some cylidners and then processeded to hollow them out, cut them, connect them, then add the plates with holes for a string (kevlar line) to go through all the fingers, so it can pull and curl the fingers.
